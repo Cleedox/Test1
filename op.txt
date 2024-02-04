@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    cout << '\t' << showpos << 4 << endl;
+    cout << internal << '-' << '\t' << noshowpos << setprecision(4) << setw(7) << 67.09124 << endl;
+    cout << right << setw(10) << showpos << 235 << endl;
+    cout << hex << 8 << hex << 10 << 1 << endl;
+    cout << dec << showpos << 1 << showpos << 24 << endl;
+}
